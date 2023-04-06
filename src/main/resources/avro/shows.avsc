@@ -1,0 +1,9 @@
+{"namespace": "avro.example",
+  "type": "record",
+  "name": "Show",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "year",  "type": ["int", "null"]},
+    {"name": "rating", "type": ["double", "null"]}
+  ]
+}
